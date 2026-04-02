@@ -1,5 +1,36 @@
+# Virtual Environment
 venv/
+env/
+
+# Python cache
 __pycache__/
-*.csv
-*.pkl
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (do not push raw data)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
 .env
+
+# MLflow
+mlruns/
+
+# Temporary files
+*.tmp
